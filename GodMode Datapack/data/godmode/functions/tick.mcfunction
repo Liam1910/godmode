@@ -16,3 +16,7 @@ execute as @a[scores={godMode=1..}] run scoreboard players reset @s
 scoreboard players enable @a godModeClear
 execute as @a[scores={godModeClear=1..}] run effect clear @s
 execute as @a[scores={godModeClear=1..}] run scoreboard players reset Liam
+
+
+scoreboard players enable @a rockets
+execute as @a[scores={rockets=1..}] run give @s rocket 64
